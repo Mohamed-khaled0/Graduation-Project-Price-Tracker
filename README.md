@@ -2,6 +2,8 @@
 
 Full‑stack price tracking for electronics across multiple marketplaces. PriceTracker scrapes product listings (Amazon, Jumia, 2B), stores structured data and price history, and lets users explore trends, compare offers, and manage watchlists.
 
+**Demo:** https://www.youtube.com/watch?v=1p76e54SFeA
+
 ## Features
 - **Multi‑platform aggregation**: Consolidates products and listings from Amazon, Jumia, and 2B.
 - **Price history tracking**: Stores time‑series price points for trend analysis and charts.
@@ -10,6 +12,7 @@ Full‑stack price tracking for electronics across multiple marketplaces. PriceT
 - **Modern UI**: Fast React + TypeScript frontend with Tailwind and component primitives.
 - **Clean API + persistence**: ASP.NET Core Web API with EF Core and repository/unit‑of‑work patterns.
 - **Scriptable scrapers**: Python scrapers and a lightweight ingestion service for automation.
+
 
 ## Tech stack
 - **Frontend**: React, TypeScript, Vite, Tailwind CSS
@@ -85,6 +88,3 @@ Before running the backend, replace placeholders with your own values in `appset
 - `DataIngestionController` / `ScraperController`: scraper → API ingestion
 - `UserController`: profile and watchlist operations
 
-
-## License
-MIT 
