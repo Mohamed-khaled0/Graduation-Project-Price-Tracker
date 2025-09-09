@@ -2,7 +2,18 @@
 
 Full‑stack price tracking for electronics across multiple marketplaces. PriceTracker scrapes product listings (Amazon, Jumia, 2B), stores structured data and price history, and lets users explore trends, compare offers, and manage watchlists.
 
-**Demo:** https://www.youtube.com/watch?v=1p76e54SFeA
+<p align="left">
+  <a href="https://www.youtube.com/watch?v=1p76e54SFeA">
+    <img src="https://img.shields.io/badge/YouTube-Demo-red?logo=youtube&logoColor=white" alt="YouTube Demo">
+  </a>
+  <a href="https://www.popai.pro/ppt-share?shareKey=62cbfd671ab0d0ae2e3dd52445a9f90dcefb0094549b77851758f0a669aa7850&utm_source=presentationsharepage">
+    <img src="https://img.shields.io/badge/Presentation-Slides-blue?logo=microsoftpowerpoint&logoColor=white" alt="Presentation Slides">
+  </a>
+  <a href="https://drive.google.com/file/d/1Mo60dsocuJ4l-FrVy7JVpOrpFTQLPd_i/view?usp=drive_link">
+    <img src="https://img.shields.io/badge/Documentation-File-green?logo=googledrive&logoColor=white" alt="Documentation File">
+  </a>
+</p>
+
 
 ## Features
 - **Multi‑platform aggregation**: Consolidates products and listings from Amazon, Jumia, and 2B.
