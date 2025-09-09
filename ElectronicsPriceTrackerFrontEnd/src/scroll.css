@@ -1,0 +1,7 @@
+.scroll-container {
+    scrollbar-width: none; /* Firefox */
+  }
+  .scroll-container::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+  }
+  
