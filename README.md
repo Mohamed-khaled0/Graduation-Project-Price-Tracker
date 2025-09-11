@@ -2,6 +2,7 @@
 
 Full‑stack price tracking for electronics across multiple marketplaces. PriceTracker scrapes product listings (Amazon, Jumia, 2B), stores structured data and price history, and lets users explore trends, compare offers, and manage watchlists.
 
+## 📺 Demo & Resources
 <p align="left">
   <a href="https://www.youtube.com/watch?v=1p76e54SFeA">
     <img src="https://img.shields.io/badge/YouTube-Demo-red?logo=youtube&logoColor=white" alt="YouTube Demo">
@@ -13,6 +14,30 @@ Full‑stack price tracking for electronics across multiple marketplaces. PriceT
     <img src="https://img.shields.io/badge/Documentation-File-green?logo=googledrive&logoColor=white" alt="Documentation File">
   </a>
 </p>
+
+
+## 📸 Screenshots
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/3d288d79-e71d-495b-99b3-84b891233ce2" alt="Sign Up" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/c0f6012c-5efb-431c-bdf5-c59870c6f644" alt="Login" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a66f910a-2a1e-464a-b080-86fcfb7398b8" alt="Forgot Password" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/863b8671-e21b-405c-b359-56ea22ab3f10" alt="About Us" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/86bd5397-37fc-4654-bf83-ccb35b83ae05" alt="Home" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/a99411ad-b383-4ae3-8bf3-e5b45765b2de" alt="Shop" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8979c1ac-79e5-4ecd-8f8d-39a2edab042c" alt="Product Details" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/32dfb241-bd07-4030-9aa2-511098e977cf" alt="Profile Settings" width="300"/></td>
+    <td><img src="https://github.com/user-attachments/assets/ff2e2bcb-fe02-4e0b-9429-bc4ab8a31e63" alt="Contact Us" width="300"/></td>
+  </tr>
+</table>
+
+---
+
 
 
 ## Features
@@ -93,9 +118,4 @@ Before running the backend, replace placeholders with your own values in `appset
   - `pip install -r requirements.txt`
   - Run `python Scrapers/scraper-service.py`
 
-## Key endpoints (high level)
-- `AuthController`: login/register, token issuance
-- `ProductController`: product search, details, comparisons, history
-- `DataIngestionController` / `ScraperController`: scraper → API ingestion
-- `UserController`: profile and watchlist operations
 
