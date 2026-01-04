@@ -73,31 +73,6 @@ Full‑stack price tracking for electronics across multiple marketplaces. PriceT
 - `Scrapers/`
   - Site scrapers (`amazon/`, `jumia/`, `twoB/`), `scraper-service.py`, request headers
 
-## Configuration
-Before running the backend, replace placeholders with your own values in `appsettings.Development.template.json`
-
-```json
-{
-  "JwtSettings": {
-    "Secret": "<YOUR_SECRET_HERE>",
-    "Issuer": "ElectronicsPriceTracker",
-    "Audience": "ElectronicsPriceTracker",
-    "ExpiryInMinutes": 60
-  },
-  "Logging": {
-    "LogLevel": {
-      "Default": "Information",
-      "Microsoft.AspNetCore": "Warning"
-    }
-  },
-  "ScraperServiceUrl": "<YOUR_SCRAPER_URL>",
-  "AllowedHosts": "*",
-  "ConnectionStrings": {
-    "DefaultConnection": "<YOUR_DB_CONNECTION>"
-  }
-}
-```
-
 ## Getting started
 
 ### Backend (API)
